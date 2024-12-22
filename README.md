@@ -25,8 +25,8 @@ With a strong foundation in Python and a love for frontend creativity, I enjoy b
 
 ## 💡 Projects I'm Proud Of
 
-- [Calisthenics Log App](https://github.com/jeddiot/calisthenics-log): A web app to track and analyze workout routines.  
-- [Free Surface Flow Modeling](https://github.com/jeddiot/free-surface-flow): Implemented a stabilized material point method for high-performance simulations.  
+- [Jedd's CV](https://github.com/jeddiot/jedd-cv): A static website to shaowcase my CV.
+- [My Flask App](https://github.com/jeddiot/my-flask-app): A dynamic web app to track and analyze workout routines (Still in development).
 
 ## 📈 GitHub Stats
 
