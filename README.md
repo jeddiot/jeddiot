@@ -22,7 +22,7 @@ With a strong foundation in Python and a love for frontend creativity, I enjoy b
 ![C](https://img.shields.io/badge/-C-A8B9CC?logo=c&logoColor=black&style=flat)
 ![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white&style=flat)
 ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat)
-![SQLite] (https://img.shields.io/badge/SQLite-003B57?logo=git&logoColor=white&style=flat)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=git&logoColor=white&style=flat)
 
 ## 💡 Projects I'm Proud Of
 
