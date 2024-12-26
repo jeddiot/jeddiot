@@ -2,8 +2,8 @@
 
 ## About Me
 
-I majored in Nuclear Science in bachelor, and Computational Mechanics in master.
-Now, I'm a passionate Software Developer who thrives on solving real-world tech problems.
+I majored in Nuclear Science in bachelor, and Computational Mechanics in master.\
+Now, I'm a passionate Software Developer who thrives on solving real-world tech problems.\
 With a strong foundation in Python during my academic careers, and a love for frontend creativity, I enjoy building impactful applications.  
 
 - **Frontend Development:** Experienced in crafting responsive designs using Bootstrap.
