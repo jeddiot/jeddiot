@@ -2,16 +2,17 @@
 
 ## About Me
 
-I'm a passionate Software Developer who thrives on solving real-world problems through technology.  
-With a strong foundation in Python and a love for frontend creativity, I enjoy building impactful applications.  
+I majored in Nuclear Science in bachelor, and Computational Mechanics in master.
+Now, I'm a passionate Software Developer who thrives on solving real-world tech problems.
+With a strong foundation in Python during my academic careers, and a love for frontend creativity, I enjoy building impactful applications.  
 
-- **Frontend Development:** Experienced in crafting responsive designs using Bootstrap.  
-- **Backend Development:** Proficient in Python for building scalable solutions.  
+- **Frontend Development:** Experienced in crafting responsive designs using Bootstrap.
+- **Backend Development:** Proficient in Python for building scalable solutions.
 
 ## 🔭 Current Focus
 
-- 🌱 Exploring Web3 technologies  
-- 💼 Open to collaborating on innovative projects  
+- 🌱 Exploring Web3 technologies
+- 💼 Open to collaborating on innovative projects
 
 ## 🛠️ Languages and Tools
 
@@ -26,18 +27,18 @@ With a strong foundation in Python and a love for frontend creativity, I enjoy b
 
 ## 💡 Projects I'm Proud Of
 
-- [Jedd's CV](https://github.com/jeddiot/jedd-cv): A static website to shaowcase my CV.
-- [My Flask App](https://github.com/jeddiot/my-flask-app): A dynamic web app to track and analyze workout routines (Still in development).
+- [Jedd's CV](https://github.com/jeddiot/jedd-cv): A static website for self introduction, showcasing my ability to coordinate frontend tools.
+- [Puppy Adoption Website](https://github.com/jeddiot/puppy-adoption): A dynamic web app to register puppies and track owners, showcasing my ability to manage the frontend tools, backend tools and database.
 
 ## 📈 GitHub Stats
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=jeddiot&show_icons=true&theme=radical)  
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=jeddiot&show_icons=true&theme=radical)
 ![Visitor Count](https://komarev.com/ghpvc/?username=jeddiot&color=blue)
 
 ## 📫 Let's Connect
 
-- [LinkedIn](https://www.linkedin.com/in/cheng-chun-yang/)  
-- [Personal Website](https://jeddiot.github.io/jedd-cv/)  
+- [LinkedIn](https://www.linkedin.com/in/cheng-chun-yang/)
+- [Personal Website](https://jeddiot.github.io/jedd-cv/)
 
 ---
 
