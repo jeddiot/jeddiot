@@ -27,7 +27,7 @@ With a strong foundation in Python during my academic careers, and a love for fr
 
 ## 💡 Projects I'm Proud Of
 
-- [Jedd's CV](https://github.com/jeddiot/jedd-cv): A static website for self introduction, showcasing my ability to coordinate frontend tools.
+- [My Personl Website](https://github.com/jeddiot/jedd-cv): A static website for self introduction, showcasing my ability to coordinate frontend tools.
 - [Puppy Adoption Website](https://github.com/jeddiot/puppy-adoption): A dynamic web app to register puppies and track owners, showcasing my ability to manage the frontend tools, backend tools and database.
 
 ## 📈 GitHub Stats
