@@ -42,6 +42,7 @@ With a strong foundation in Python during my academic careers, and a love for fr
 <!-- - [Personal Website](https://jeddiot.github.io/jedd-cv/) -->
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat)](https://www.linkedin.com/in/cheng-chun-yang/)
 [![Personal Website](https://img.shields.io/badge/-Website-000000?logo=google-chrome&logoColor=white&style=flat)](https://jeddiot.github.io/jedd-cv/)
+[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?logo=leetcode&logoColor=white&style=flat)](https://leetcode.com/u/jeddiot/)
 
 ---
 
