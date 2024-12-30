@@ -27,9 +27,9 @@ With a strong foundation in Python during my academic careers, and a love for fr
 
 ## 💡 Projects I'm Proud Of
 
-- [My Personl Website](https://github.com/jeddiot/jedd-cv): A static website for self introduction, showcasing my ability to coordinate frontend tools.
-- [Puppy Adoption Website](https://github.com/jeddiot/puppy-adoption): A dynamic Flask-based web app to register puppies and track owners, showcasing my ability to manage the backend tools and database.
-- [User Authentication Website](https://github.com/jeddiot/user-authentication): A dynamic Flask-based web app to register email, username, showcasing my ability to manage SQLite database.
+- [My Personl Website](https://github.com/jeddiot/jedd-cv): A static website for self introduction.
+- [Puppy Adoption Website](https://github.com/jeddiot/puppy-adoption): A dynamic Flask-based web app to register puppies and track owners.
+- [User Authentication Website](https://github.com/jeddiot/user-authentication): A dynamic Flask-based web app to login / register email and username.
 
 ## 📈 GitHub Stats
 
