@@ -2,28 +2,40 @@
 
 ## About Me
 
-I majored in Nuclear Science in bachelor, and Computational Mechanics in master.\
-Now, I'm a passionate Software Developer who thrives on solving real-world tech problems.\
-With a strong foundation in Python during my academic careers, and a love for frontend creativity, I enjoy building impactful applications.  
-
-- **Frontend Development:** Experienced in crafting responsive designs using Bootstrap.
-- **Backend Development:** Proficient in Python for building scalable solutions.
-
-## 🔭 Current Focus
-
-- 🌱 Exploring Web3 technologies
-- 💼 Open to collaborating on innovative projects
+I majored in Nuclear Science in bachelor; Computational Mechanics in master.\
+Now, I'm a passionately expanding my knowledge in Computer Science.\
+With a strong foundation in Python during my academic careers, and a love for logical abstact thinking,\
+I'm attracted by Backend Development.
 
 ## 🛠️ Languages and Tools
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat)
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
-![C](https://img.shields.io/badge/-C-A8B9CC?logo=c&logoColor=black&style=flat)
-![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white&style=flat)
-![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=git&logoColor=white&style=flat)
+## 🛠️ Languages and Tools
+
+- **Programming Languages**:  
+  ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)  
+  ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)  
+  ![C](https://img.shields.io/badge/-C-A8B9CC?logo=c&logoColor=black&style=flat)  
+  ![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white&style=flat)  
+
+- **Web Technologies**:  
+  ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat)  
+  ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat)  
+  JSON, RESTful APIs  
+
+- **Database Management**:  
+  ![SQLite](https://img.shields.io/badge/-SQLite-003B57?logo=sqlite&logoColor=white&style=flat)  
+
+- **Frameworks**:  
+  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=flat)  
+  ![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white&style=flat)  
+
+- **Operating Systems**:  
+  ![Windows](https://img.shields.io/badge/-Windows-0078D4?logo=windows&logoColor=white&style=flat)  
+  ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black&style=flat) *(Learning in progress)*  
+
+- **Tools**:  
+  ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat)  
+  ![Markdown](https://img.shields.io/badge/-Markdown-000000?logo=markdown&logoColor=white&style=flat)
 
 ## 💡 Projects I'm Proud Of
 
