@@ -11,6 +11,8 @@ I'm attracted by Backend Development.
 
 ## 🛠️ Languages and Tools
 
+## 🛠️ Languages and Tools
+
 - **Programming Languages**:  
   ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)  
   ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)  
