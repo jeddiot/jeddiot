@@ -30,8 +30,7 @@ I'm attracted by Backend Development.
 ## 💡 Projects I'm Proud Of
 
 - [My Personl Website](https://github.com/jeddiot/jedd-cv): A static website for self introduction.
-- [Puppy Adoption Website](https://github.com/jeddiot/puppy-adoption): A dynamic Flask-based web app to register puppies and track owners.
-- [User Authentication Website](https://github.com/jeddiot/user-authentication): A dynamic Flask-based web app to login / register email and username.
+- [Calisthenics Blog: Calisophy](https://github.com/jeddiot/calisthenics-blog): A dynamic Flask-based web app for calisthenics enthusiasts to share and connect, demonstrating my backend development ability.
 
 ## 📈 GitHub Stats
 
