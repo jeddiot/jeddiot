@@ -37,11 +37,21 @@ I'm attracted by Backend Development.
 <!-- ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=jeddiot&show_icons=true&theme=radical)
 ![Visitor Count](https://komarev.com/ghpvc/?username=jeddiot&color=blue) -->
 
+## 📈 GitHub Stats
+
 <div align="center">
-    ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=jeddiot&show_icons=true&theme=gruvbox)
-    <div style="margin-top: 10px;">
-        <img src="https://komarev.com/ghpvc/?username=jeddiot&style=for-the-badge&color=brightgreen" alt="Visitor Count"/>
-    </div>
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=jeddiot&show_icons=true&theme=vue" alt="GitHub Stats"/>
+    </td>
+    <td>
+      <img src="https://komarev.com/ghpvc/?username=jeddiot&style=for-the-badge&color=brightgreen" alt="Visitor Count"/>
+    </td>
+  </tr>
+</table>
+
 </div>
 
 ## 📫 Let's Connect
