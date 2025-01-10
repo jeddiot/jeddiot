@@ -10,7 +10,7 @@ I'm attracted by Backend Development.
 ## 🛠️ Languages and Tools
 
 - **Programming Languages**:  
-  ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat) ![C](https://img.shields.io/badge/-C-A8B9CC?logo=c&logoColor=black&style=flat) ![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white&style=flat)
+  ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat) ![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white&style=flat)
 
 - **Web Technologies**:  
   ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat) ![JSON](https://img.shields.io/badge/-JSON-000000?logo=json&logoColor=white&style=flat) ![RESTful APIs](https://img.shields.io/badge/-RESTful%20APIs-25A2C4?logo=api&logoColor=white&style=flat)
