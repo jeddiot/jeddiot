@@ -19,7 +19,7 @@ I'm attracted by Backend Development.
   ![SQLite](https://img.shields.io/badge/-SQLite-003B57?logo=sqlite&logoColor=white&style=flat) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?logo=postgresql&logoColor=white&style=flat) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=flat)
 
 - **Frameworks**:  
-  ![Bootstrap5](https://img.shields.io/badge/-Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=flat) ![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white&style=flat)
+  ![Bootstrap5](https://img.shields.io/badge/-Bootstrap5-563D7C?logo=bootstrap&logoColor=white&style=flat) ![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white&style=flat)
 
 - **Operating Systems**:  
   ![Windows](https://img.shields.io/badge/-Windows-0078D4?logo=windows&logoColor=white&style=flat) ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black&style=flat)
@@ -34,8 +34,19 @@ I'm attracted by Backend Development.
 
 ## 📈 GitHub Stats
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=jeddiot&show_icons=true&theme=radical)
-![Visitor Count](https://komarev.com/ghpvc/?username=jeddiot&color=blue)
+<!-- ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=jeddiot&show_icons=true&theme=radical)
+![Visitor Count](https://komarev.com/ghpvc/?username=jeddiot&color=blue) -->
+## 📈 GitHub Stats
+
+<div align="center">
+
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=jeddiot&show_icons=true&theme=gruvbox)
+
+<div style="margin-top: 10px;">
+  <img src="https://komarev.com/ghpvc/?username=jeddiot&style=for-the-badge&color=brightgreen" alt="Visitor Count"/>
+</div>
+
+</div>
 
 ## 📫 Let's Connect
 
