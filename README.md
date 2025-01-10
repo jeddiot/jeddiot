@@ -47,7 +47,7 @@ I'm attracted by Backend Development.
       <img src="https://github-readme-stats.vercel.app/api?username=jeddiot&show_icons=true&theme=vue" alt="GitHub Stats"/>
     </td>
     <td>
-      <img src="https://komarev.com/ghpvc/?username=jeddiot&style=flat&color=vue" alt="Visitor Count"/>
+      <img src="https://komarev.com/ghpvc/?username=jeddiot&style=flat&color=brightgreen" alt="Visitor Count"/>
     </td>
   </tr>
 </table>
