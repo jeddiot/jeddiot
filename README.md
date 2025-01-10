@@ -34,8 +34,11 @@ I'm attracted by Backend Development.
 
 ## 📈 GitHub Stats
 
+<!-- ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=jeddiot&show_icons=true&theme=radical)
+![Visitor Count](https://komarev.com/ghpvc/?username=jeddiot&color=blue) -->
+
 <div align="center">
-    ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=jeddiot&show_icons=true&theme=vue)
+    ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=jeddiot&show_icons=true&theme=gruvbox)
     <div style="margin-top: 10px;">
         <img src="https://komarev.com/ghpvc/?username=jeddiot&style=for-the-badge&color=brightgreen" alt="Visitor Count"/>
     </div>
