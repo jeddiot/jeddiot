@@ -22,7 +22,7 @@ I'm attracted by Backend Development.
   ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=flat) ![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white&style=flat)
 
 - **Operating Systems**:  
-  ![Windows](https://img.shields.io/badge/-Windows-0078D4?logo=windows&logoColor=white&style=flat) ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black&style=flat) *(Learning in progress)*
+  ![Windows](https://img.shields.io/badge/-Windows-0078D4?logo=windows&logoColor=white&style=flat) ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black&style=flat)
 
 - **Tools**:  
   ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat) ![Markdown](https://img.shields.io/badge/-Markdown-000000?logo=markdown&logoColor=white&style=flat) ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat)
