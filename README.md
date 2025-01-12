@@ -40,7 +40,8 @@ Feel free to contact me if you are looking for a disciplined coder:
 
 ## 💡 Projects I'm Proud Of
 
-- [My Personl Website](https://github.com/jeddiot/jedd-cv): A static website for self introduction.
+- [MPM-FLIP98A](https://github.com/jeddiot/MPM-FLIP98A): A Numerical Method developed with PRof. Tsung-Hui Huang using C++ and Python.
+- [Personl Website](https://github.com/jeddiot/jedd-cv): A static website for self introduction.
 - [Calisthenics Blog: Calisophy](https://github.com/jeddiot/calisthenics-blog): A dynamic Flask-based web app for calisthenics enthusiasts to share and connect, demonstrating my backend development ability.
 
 ## 📈 GitHub Stats
@@ -51,14 +52,14 @@ Feel free to contact me if you are looking for a disciplined coder:
 <div align="center">
 
 <table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=jeddiot&show_icons=true&theme=vue" alt="GitHub Stats"/>
-    </td>
-    <td>
-      <img src="https://komarev.com/ghpvc/?username=jeddiot&style=flat&color=brightgreen" alt="Visitor Count"/>
-    </td>
-  </tr>
+    <tr>
+        <td>
+            <img src="https://github-readme-stats.vercel.app/api?username=jeddiot&show_icons=true&theme=vue" alt="GitHub Stats"/>
+        </td>
+        <td>
+            <img src="https://komarev.com/ghpvc/?username=jeddiot&style=flat&color=brightgreen" alt="Visitor Count"/>
+        </td>
+    </tr>
 </table>
 
 </div>
