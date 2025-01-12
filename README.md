@@ -2,19 +2,19 @@
 
 ## About Me
 
-Hi! Jedd here, A 2024NTHU STEM Graduate actively learning backend knowledge.
+Hi! Jedd here, a 2024 NTHU STEM Graduate actively learning backend knowledge.
 
-◎ Nuclear Science Bachelor & Mechanical Engineering Master in NTHU
-◎ Specializes in Machine Learning (PINNs, Physics-Informed Neural Network)
-◎ Currently focus on Backend
-◎ Bilingual: Mandarin Chinese (Native) / English (TOEIC 915)
+◎ 🎓 **Education**: Nuclear Science Bachelor & Mechanical Engineering Master from NTHU  
+◎ 🤖 **Specialization**: Machine Learning (PINNs, Physics-Informed Neural Networks)  
+◎ 🔧 **Current Focus**: Backend Development  
+◎ 🌐 **Languages**: Mandarin Chinese (Native) / English (TOEIC 915)
 
 ## 📫 Let's Connect
 
-◎ [📧 Email](mailto:yangjedd@gmail.com)
-◎ [💼 LinkedIn](https://www.linkedin.com/in/cheng-chun-yang/)
-◎ [🌐 Personal Website](https://jeddiot.github.io/jedd-cv/)
-◎ [💻 LeetCode](https://leetcode.com/u/jeddiot/)
+◎ ![Email](https://img.shields.io/badge/Email-yangjedd@gmail.com-blue?style=flat-square&logo=gmail)[yangjedd@gmail.com](mailto:yangjedd@gmail.com)  
+◎ ![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)[linkedin.com/in/cheng-chun-yang/](https://www.linkedin.com/in/cheng-chun-yang/)  
+◎ ![Personal Website](https://img.shields.io/badge/Website-jeddiot.github.io-green?style=flat-square&logo=github)[https://jeddiot.github.io/personal-website/](https://jeddiot.github.io/jedd-personal-website/)  
+◎ ![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?style=flat-square&logo=leetcode)[leetcode.com/u/jeddiot/](https://leetcode.com/u/jeddiot/)
 
 ## 🛠️ Languages and Tools
 
