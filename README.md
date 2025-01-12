@@ -4,17 +4,24 @@
 
 Hi! Jedd here, a 2024 NTHU STEM Graduate actively learning backend knowledge.
 
-◎ 🎓 **Education**: Nuclear Science Bachelor & Mechanical Engineering Master from NTHU  
-◎ 🤖 **Specialization**: Machine Learning (PINNs, Physics-Informed Neural Networks)  
-◎ 🔧 **Current Focus**: Backend Development  
-◎ 🌐 **Languages**: Mandarin Chinese (Native) / English (TOEIC 915)
+◎ **Education**: Nuclear Science Bachelor & Mechanical Engineering Master from NTHU  
+◎ **Specialization**: Machine Learning (PINNs, Physics-Informed Neural Networks)  
+◎ **Current Focus**: Backend Development  
+◎ **Languages**: Mandarin Chinese (Native) / English (TOEIC 915)
 
 ## 📫 Let's Connect
 
-◎ ![Email](https://img.shields.io/badge/Email-yangjedd@gmail.com-blue?style=flat-square&logo=gmail)[yangjedd@gmail.com](mailto:yangjedd@gmail.com)  
+<!-- ◎ ![Email](https://img.shields.io/badge/Email-yangjedd@gmail.com-blue?style=flat-square&logo=gmail)[yangjedd@gmail.com](mailto:yangjedd@gmail.com)  
 ◎ ![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)[linkedin.com/in/cheng-chun-yang/](https://www.linkedin.com/in/cheng-chun-yang/)  
 ◎ ![Personal Website](https://img.shields.io/badge/Website-jeddiot.github.io-green?style=flat-square&logo=github)[https://jeddiot.github.io/personal-website/](https://jeddiot.github.io/jedd-personal-website/)  
-◎ ![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?style=flat-square&logo=leetcode)[leetcode.com/u/jeddiot/](https://leetcode.com/u/jeddiot/)
+◎ ![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?style=flat-square&logo=leetcode)[leetcode.com/u/jeddiot/](https://leetcode.com/u/jeddiot/) -->
+
+Feel free to contact me if you are looking for a disciplined coder:
+
+[![📧 Email](https://img.shields.io/badge/Email-yangjedd@gmail.com-blue?style=flat-square&logo=gmail)](mailto:yangjedd@gmail.com)  
+[![💼 LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/cheng-chun-yang/)  
+[![🌐 Personal Website](https://img.shields.io/badge/Website-jeddiot.github.io-green?style=flat-square&logo=github)](https://jeddiot.github.io/jedd-cv/)  
+[![💻 LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?style=flat-square&logo=leetcode)](https://leetcode.com/u/jeddiot/)
 
 ## 🛠️ Languages and Tools
 
