@@ -2,10 +2,19 @@
 
 ## About Me
 
-I majored in Nuclear Science in bachelor; Computational Mechanics in master.\
-Now, I'm a passionately expanding my knowledge in Computer Science.\
-With a strong foundation in Python during my academic careers, and a love for logical abstact thinking,\
-I'm attracted by Backend Development.
+Hi! Jedd here, A 2024NTHU STEM Graduate actively learning backend knowledge.
+
+◎ Nuclear Science Bachelor & Mechanical Engineering Master in NTHU
+◎ Specializes in Machine Learning (PINNs, Physics-Informed Neural Network)
+◎ Currently focus on Backend
+◎ Bilingual: Mandarin Chinese (Native) / English (TOEIC 915)
+
+## 📫 Let's Connect
+
+◎ [📧 Email](mailto:yangjedd@gmail.com)
+◎ [💼 LinkedIn](https://www.linkedin.com/in/cheng-chun-yang/)
+◎ [🌐 Personal Website](https://jeddiot.github.io/jedd-cv/)
+◎ [💻 LeetCode](https://leetcode.com/u/jeddiot/)
 
 ## 🛠️ Languages and Tools
 
@@ -37,8 +46,6 @@ I'm attracted by Backend Development.
 <!-- ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=jeddiot&show_icons=true&theme=radical)
 ![Visitor Count](https://komarev.com/ghpvc/?username=jeddiot&color=blue) -->
 
-## 📈 GitHub Stats
-
 <div align="center">
 
 <table>
@@ -53,15 +60,3 @@ I'm attracted by Backend Development.
 </table>
 
 </div>
-
-## 📫 Let's Connect
-
-<!-- - [LinkedIn](https://www.linkedin.com/in/cheng-chun-yang/) -->
-<!-- - [Personal Website](https://jeddiot.github.io/jedd-cv/) -->
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat)](https://www.linkedin.com/in/cheng-chun-yang/)
-[![Personal Website](https://img.shields.io/badge/-Website-000000?logo=google-chrome&logoColor=white&style=flat)](https://jeddiot.github.io/jedd-cv/)
-[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?logo=leetcode&logoColor=white&style=flat)](https://leetcode.com/u/jeddiot/)
-
----
-
-If you’re interested in collaborating or just want to say hi, feel free to connect with me!
