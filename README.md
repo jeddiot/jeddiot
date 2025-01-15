@@ -2,7 +2,7 @@
 
 ## About Me
 
-Hi! Jedd here, a 2024 NTHU STEM Graduate actively learning backend knowledge.
+Hi! Jedd here, a 2024 NTHU STEM Graduate with strong engineering background and software development ability.
 
 ◎ **Education**: Nuclear Science Bachelor & Mechanical Engineering Master from NTHU  
 ◎ **Specialization**: Machine Learning (PINNs, Physics-Informed Neural Networks)  
