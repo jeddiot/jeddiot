@@ -18,25 +18,27 @@ Feel free to contact me if you are looking for a disciplined coder:
 ◎ **Personal Website**: [Visit my personal website](https://jeddiot.github.io/jedd-cv/)  
 ◎ **LeetCode**: [Submission Insight](https://leetcode.com/u/jeddiot/)
 
-## 🛠️ Languages and Tools
+## 🛠️ Skills
 
-- **Programming Languages**:  
-  ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat) ![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white&style=flat)
-
-- **Web Technologies**:  
-  ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat) ![JSON](https://img.shields.io/badge/-JSON-000000?logo=json&logoColor=white&style=flat) ![RESTful APIs](https://img.shields.io/badge/-RESTful%20APIs-25A2C4?logo=api&logoColor=white&style=flat)
-
-- **Database Management**:  
-  ![SQLite](https://img.shields.io/badge/-SQLite-003B57?logo=sqlite&logoColor=white&style=flat) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?logo=postgresql&logoColor=white&style=flat) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=flat)
-
-- **Frameworks**:  
-  ![Bootstrap5](https://img.shields.io/badge/-Bootstrap5-563D7C?logo=bootstrap&logoColor=white&style=flat) ![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white&style=flat)
-
-- **Operating Systems**:  
-  ![Windows](https://img.shields.io/badge/-Windows-0078D4?logo=windows&logoColor=white&style=flat) ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black&style=flat)
-
-- **Tools**:  
-  ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat) ![Markdown](https://img.shields.io/badge/-Markdown-000000?logo=markdown&logoColor=white&style=flat) ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat)
+<ul>
+    <li>📌 <b>Programming Languages</b>: Python, C/C++, C#</li>
+    <li>📌 <b>Frontend Technologies</b>: HTML, CSS, JavaScript</li>
+    <li>📌 <b>Backend & API Development</b>: PHP, Flask, RESTful API</li>
+    <li>📌 <b>Database Management</b>: PostgreSQL</li>
+    <li>📌 <b>DevOps & Automation</b>:
+        <ul>
+            <li>Version Control: Git, Bitbucket</li>
+            <li>CI/CD & Containerization: Jenkins, Docker, Nexus Repository</li>
+            <li>Testing & Scripting: Selenium, Shell Script, Postman</li>
+        </ul>
+    </li>
+    <li>📌 <b>AI / Machine Learning</b>:
+        <ul>
+            <li><b>Models</b>: PINNs (Physics-Informed Neural Networks)</li>
+            <li><b>Libraries</b>: PyTorch, OpenCV</li>
+        </ul>
+    </li>
+</ul>
 
 ## 💡 Projects I'm Proud Of
 
