@@ -4,16 +4,13 @@
 
 ## About Me
 
-Hi! Jedd here, a C# and C++ Dev. If you're passionate about software engineering as well, let's connect!
+Hi! Jedd here, a C# and C++ Dev.  
 
 ## 📫 Let's Connect
 
-Feel free to contact me if you are looking for a disciplined coder:
+If you're passionate about software engineering as well, let's connect!  
 
-◎ **Email**: [Reach out to me](mailto:yangjedd@gmail.com)  
-◎ **LinkedIn**: [Connect with me](https://www.linkedin.com/in/cheng-chun-yang/)  
-◎ **Personal Website**: [Visit my personal website](https://jeddiot.github.io/jedd-cv/)  
-◎ **LeetCode**: [Submission Insight](https://leetcode.com/u/jeddiot/)
+[Email: yangjedd@gmail.com](mailto:yangjedd@gmail.com) | [LinkedIn](https://www.linkedin.com/in/cheng-chun-yang/) | [Personal Website](https://jeddiot.github.io/jedd-cv/) | [LeetCode](https://leetcode.com/u/jeddiot/)
 
 ## 🛠️ Skills
 
@@ -22,14 +19,14 @@ Feel free to contact me if you are looking for a disciplined coder:
     <li><b>Software System Design</b>
     <ul>
         <li>Route Optimization Algorithms
-        <li>API Development \& Integration (RESTful)
-        <li>Database Schema Design \& SQL Query Optimization
+        <li>API Development & Integration (RESTful)
+        <li>Database Schema Design & SQL Query Optimization
         <li>Software Testing (Unit, Integration, API Testing)
     </ul>
-    <li><b>DevOps \& System Administration</b>
+    <li><b>DevOps & System Administration</b>
     <ul>
-        <li>Git Version Control, CI/CD Pipelines \& Containerization
-        <li>Linux Shell Scripting \& Server Management
+        <li>Git Version Control, CI/CD Pipelines & Containerization
+        <li>Linux Shell Scripting & Server Management
     </ul>
 </ul>
 
