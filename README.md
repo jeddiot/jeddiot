@@ -17,4 +17,8 @@ Here are some ideas to get you started:
 
 > Jedd is currently a R&D software design senior engineer at Delta Electronics. He received his BS and MEng from National Tsing Hua University with his thesis titled "Developing Stabilized Material Point Method for Free Surface Flow Modeling". He is currently focusing on software infrastructure for robot simulation and robot controller.
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jeddiot)](https://github.com/anuraghazra/github-readme-stats)
+## 📊 Language Stats
+
+![Languages](https://raw.githubusercontent.com/jeddiot/jeddiot/main/docs/languages.svg)
+
+<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jeddiot)](https://github.com/anuraghazra/github-readme-stats) -->
