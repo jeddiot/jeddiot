@@ -3,6 +3,8 @@
  * generate-lang-stats.js
  *
  * Usage:
+ *   node scripts/generate-lang-stats.js --user=username --out=docs/languages.svg
+ *   OR
  *   node scripts/generate-lang-stats.js --repo=owner/repo --out=docs/languages.svg
  *
  * It reads GITHUB_TOKEN from env if available (for higher rate limits).
@@ -26,12 +28,36 @@ function parseArgs() {
 
 const args = parseArgs();
 const repo = args.repo || process.env.REPO;
+const user = args.user || process.env.USER;
 const outPath = args.out || 'docs/languages.svg';
 const token = process.env.GITHUB_TOKEN || args.token || '';
 
-if (!repo) {
-  console.error('Error: repo not specified. Use --repo=owner/repo or set REPO env var.');
+if (!repo && !user) {
+  console.error('Error: repo or user not specified. Use --repo=owner/repo or --user=username');
   process.exit(1);
+}
+
+async function fetchUserRepos(username) {
+  const headers = {
+    'User-Agent': 'lang-stats-generator',
+    Accept: 'application/vnd.github.v3+json'
+  };
+  if (token) headers.Authorization = `token ${token}`;
+  
+  let allRepos = [];
+  let page = 1;
+  while (true) {
+    const url = `https://api.github.com/users/${username}/repos?per_page=100&page=${page}`;
+    const res = await fetch(url, { headers });
+    if (!res.ok) {
+      throw new Error(`GitHub API returned ${res.status} ${res.statusText} for ${url}`);
+    }
+    const repos = await res.json();
+    if (repos.length === 0) break;
+    allRepos = allRepos.concat(repos.filter(r => !r.fork)); // exclude forks
+    page++;
+  }
+  return allRepos;
 }
 
 async function fetchLanguages(repo) {
@@ -46,6 +72,24 @@ async function fetchLanguages(repo) {
     throw new Error(`GitHub API returned ${res.status} ${res.statusText} for ${url}`);
   }
   return res.json();
+}
+
+async function fetchAllLanguages(username) {
+  const repos = await fetchUserRepos(username);
+  console.log(`Found ${repos.length} public repositories for ${username}`);
+  
+  const allLangs = {};
+  for (const repo of repos) {
+    try {
+      const langs = await fetchLanguages(repo.full_name);
+      for (const [lang, bytes] of Object.entries(langs)) {
+        allLangs[lang] = (allLangs[lang] || 0) + bytes;
+      }
+    } catch (err) {
+      console.warn(`Warning: Could not fetch languages for ${repo.full_name}: ${err.message}`);
+    }
+  }
+  return allLangs;
 }
 
 function colorForLanguage(lang) {
@@ -78,7 +122,7 @@ function colorForLanguage(lang) {
   return palette[h % palette.length];
 }
 
-function generateSVG(data, repo) {
+function generateSVG(data, title) {
   // data: [{name, bytes, percent}]
   const width = 760;
   const height = 140;
@@ -88,7 +132,7 @@ function generateSVG(data, repo) {
   const barWidth = width - padding * 2;
   const barHeight = 24;
 
-  const totalText = `Languages for ${repo}`;
+  const totalText = title;
   // Build stacked bar segments
   let x = barX;
   const segments = data.map((d) => {
@@ -164,15 +208,28 @@ function escapeXml(s) {
 
 (async () => {
   try {
-    const json = await fetchLanguages(repo);
+    let json;
+    let title;
+    
+    if (user) {
+      // Fetch all repos for the user and aggregate languages
+      json = await fetchAllLanguages(user);
+      title = `Languages across all repos for ${user}`;
+    } else {
+      // Single repo mode
+      json = await fetchLanguages(repo);
+      title = `Languages for ${repo}`;
+    }
+    
     const entries = Object.entries(json || {});
     if (entries.length === 0) {
       // No languages (maybe empty repo). Create placeholder SVG.
+      const placeholderTitle = user ? user : repo;
       const placeholder = `<?xml version="1.0" encoding="UTF-8"?>
 <svg width="600" height="90" xmlns="http://www.w3.org/2000/svg">
   <style>.t{font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;}</style>
   <rect width="100%" height="100%" fill="transparent"/>
-  <text x="16" y="28" class="t">No language data for ${escapeXml(repo)}</text>
+  <text x="16" y="28" class="t">No language data for ${escapeXml(placeholderTitle)}</text>
   <text x="16" y="54" font-size="11" fill="#666">Make sure the repository exists and is public, or provide a token with repo access.</text>
 </svg>`;
       await fs.promises.mkdir(path.dirname(outPath), { recursive: true });
@@ -197,7 +254,7 @@ function escapeXml(s) {
     // Round percents nicely but keep sum 100
     let rounded = list.map(l => ({ ...l, percent: l.percent }));
     // ensure sum round doesn't stray too far — just format later with toFixed(1)
-    const svg = generateSVG(rounded, repo);
+    const svg = generateSVG(rounded, title);
     await fs.promises.mkdir(path.dirname(outPath), { recursive: true });
     await fs.promises.writeFile(outPath, svg, 'utf8');
     console.log(`Wrote language SVG to ${outPath}`);
