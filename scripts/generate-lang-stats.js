@@ -125,10 +125,9 @@ function colorForLanguage(lang) {
 function generateSVG(data, title) {
   // data: [{name, bytes, percent}]
   const width = 760;
-  const height = 140;
   const padding = 20;
   const barX = padding;
-  const barY = 30;
+  const barY = 40;
   const barWidth = width - padding * 2;
   const barHeight = 24;
 
@@ -148,6 +147,11 @@ function generateSVG(data, title) {
   const legendItemHeight = 18;
   const legendCols = 2;
   const legendColWidth = (width - padding * 2) / legendCols;
+  
+  // Calculate height dynamically based on legend rows
+  const legendRows = Math.ceil(data.length / legendCols);
+  const legendHeight = legendRows * (legendItemHeight + 6);
+  const height = legendY + legendHeight + 30; // Extra space for the updated text
 
   const ns = 'http://www.w3.org/2000/svg';
   let svg = '';
@@ -158,8 +162,8 @@ function generateSVG(data, title) {
     .percent{font:500 12px/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;}
     .legend{font:12px/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;}
   </style>\n`;
-  svg += `<rect x="0" y="0" width="${width}" height="${height}" fill="transparent" />\n`;
-  svg += `<text x="${padding}" y="${padding + 6}" class="title">${escapeXml(totalText)}</text>\n`;
+  svg += `<rect x="0" y="0" width="${width}" height="${height}" fill="#2d2d2d" rx="8" />\n`;
+  svg += `<text x="${padding}" y="${padding + 6}" class="title" fill="#ffffff">${escapeXml(totalText)}</text>\n`;
 
   // stacked bar background
   svg += `<g transform="translate(0,0)">\n`;
@@ -182,13 +186,13 @@ function generateSVG(data, title) {
     const color = colorForLanguage(d.name);
     svg += `<g class="legend">\n`;
     svg += `<rect x="${lx}" y="${ly - 12}" width="12" height="12" rx="2" fill="${color}" />\n`;
-    svg += `<text x="${lx + 18}" y="${ly - 2}" font-size="12" fill="#222">${escapeXml(d.name)}</text>\n`;
-    svg += `<text x="${lx + legendColWidth - 48}" y="${ly - 2}" font-size="12" fill="#555" text-anchor="end">${d.percent.toFixed(1)}%</text>\n`;
+    svg += `<text x="${lx + 18}" y="${ly - 2}" font-size="12" fill="#ffffff">${escapeXml(d.name)}</text>\n`;
+    svg += `<text x="${lx + legendColWidth - 48}" y="${ly - 2}" font-size="12" fill="#ffffff" text-anchor="end">${d.percent.toFixed(1)}%</text>\n`;
     svg += `</g>\n`;
   });
 
-  // Footer small note
-  svg += `<text x="${padding}" y="${height - 6}" font-size="10" fill="#666">Updated: ${new Date().toISOString()}</text>\n`;
+  // Footer small note - positioned below the legend
+  svg += `<text x="${padding}" y="${height - 6}" font-size="10" fill="#aaaaaa">Updated: ${new Date().toISOString()}</text>\n`;
 
   svg += `</svg>\n`;
   return svg;

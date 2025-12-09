@@ -1,86 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="760" height="140" viewBox="0 0 760 140" xmlns="http://www.w3.org/2000/svg">
+<svg width="760" height="230" viewBox="0 0 760 230" xmlns="http://www.w3.org/2000/svg">
 <style>
     .title{font:600 14px/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;}
     .percent{font:500 12px/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;}
     .legend{font:12px/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;}
   </style>
-<rect x="0" y="0" width="760" height="140" fill="transparent" />
-<text x="20" y="26" class="title">Languages across all repos for jeddiot</text>
+<rect x="0" y="0" width="760" height="230" fill="#2d2d2d" rx="8" />
+<text x="20" y="26" class="title" fill="#ffffff">Languages across all repos for jeddiot</text>
 <g transform="translate(0,0)">
-<rect x="20" y="30" width="720" height="24" rx="6" fill="#e6e6e6" />
-<rect x="20" y="30" width="511" height="24" rx="0" fill="#f34b7d">
-<title>C++: 71.0%</title>
+<rect x="20" y="40" width="720" height="24" rx="6" fill="#e6e6e6" />
+<rect x="20" y="40" width="511" height="24" rx="0" fill="#f34b7d">
+<title>C++: 70.9%</title>
 </rect>
-<rect x="531" y="30" width="167" height="24" rx="0" fill="#555555">
+<rect x="531" y="40" width="167" height="24" rx="0" fill="#555555">
 <title>C: 23.2%</title>
 </rect>
-<rect x="698" y="30" width="16" height="24" rx="0" fill="#3572A5">
+<rect x="698" y="40" width="16" height="24" rx="0" fill="#3572A5">
 <title>Python: 2.2%</title>
 </rect>
-<rect x="714" y="30" width="10" height="24" rx="0" fill="#fb8072">
+<rect x="714" y="40" width="10" height="24" rx="0" fill="#fb8072">
 <title>MATLAB: 1.4%</title>
 </rect>
-<rect x="724" y="30" width="7" height="24" rx="0" fill="#e34c26">
+<rect x="724" y="40" width="7" height="24" rx="0" fill="#e34c26">
 <title>HTML: 1.0%</title>
 </rect>
-<rect x="731" y="30" width="4" height="24" rx="0" fill="#fccde5">
+<rect x="731" y="40" width="4" height="24" rx="0" fill="#fccde5">
 <title>Objective-C: 0.6%</title>
 </rect>
-<rect x="735" y="30" width="1" height="24" rx="0" fill="#f1e05a">
-<title>JavaScript: 0.2%</title>
+<rect x="735" y="40" width="2" height="24" rx="0" fill="#f1e05a">
+<title>JavaScript: 0.3%</title>
 </rect>
-<rect x="736" y="30" width="1" height="24" rx="0" fill="#701516">
+<rect x="737" y="40" width="1" height="24" rx="0" fill="#701516">
 <title>Ruby: 0.2%</title>
 </rect>
-<rect x="737" y="30" width="2" height="24" rx="0" fill="#80b1d3">
+<rect x="738" y="40" width="2" height="24" rx="0" fill="#80b1d3">
 <title>Other: 0.3%</title>
 </rect>
 </g>
 <g class="legend">
-<rect x="20" y="58" width="12" height="12" rx="2" fill="#f34b7d" />
-<text x="38" y="68" font-size="12" fill="#222">C++</text>
-<text x="332" y="68" font-size="12" fill="#555" text-anchor="end">71.0%</text>
+<rect x="20" y="68" width="12" height="12" rx="2" fill="#f34b7d" />
+<text x="38" y="78" font-size="12" fill="#ffffff">C++</text>
+<text x="332" y="78" font-size="12" fill="#ffffff" text-anchor="end">70.9%</text>
 </g>
 <g class="legend">
-<rect x="380" y="58" width="12" height="12" rx="2" fill="#555555" />
-<text x="398" y="68" font-size="12" fill="#222">C</text>
-<text x="692" y="68" font-size="12" fill="#555" text-anchor="end">23.2%</text>
+<rect x="380" y="68" width="12" height="12" rx="2" fill="#555555" />
+<text x="398" y="78" font-size="12" fill="#ffffff">C</text>
+<text x="692" y="78" font-size="12" fill="#ffffff" text-anchor="end">23.2%</text>
 </g>
 <g class="legend">
-<rect x="20" y="82" width="12" height="12" rx="2" fill="#3572A5" />
-<text x="38" y="92" font-size="12" fill="#222">Python</text>
-<text x="332" y="92" font-size="12" fill="#555" text-anchor="end">2.2%</text>
+<rect x="20" y="92" width="12" height="12" rx="2" fill="#3572A5" />
+<text x="38" y="102" font-size="12" fill="#ffffff">Python</text>
+<text x="332" y="102" font-size="12" fill="#ffffff" text-anchor="end">2.2%</text>
 </g>
 <g class="legend">
-<rect x="380" y="82" width="12" height="12" rx="2" fill="#fb8072" />
-<text x="398" y="92" font-size="12" fill="#222">MATLAB</text>
-<text x="692" y="92" font-size="12" fill="#555" text-anchor="end">1.4%</text>
+<rect x="380" y="92" width="12" height="12" rx="2" fill="#fb8072" />
+<text x="398" y="102" font-size="12" fill="#ffffff">MATLAB</text>
+<text x="692" y="102" font-size="12" fill="#ffffff" text-anchor="end">1.4%</text>
 </g>
 <g class="legend">
-<rect x="20" y="106" width="12" height="12" rx="2" fill="#e34c26" />
-<text x="38" y="116" font-size="12" fill="#222">HTML</text>
-<text x="332" y="116" font-size="12" fill="#555" text-anchor="end">1.0%</text>
+<rect x="20" y="116" width="12" height="12" rx="2" fill="#e34c26" />
+<text x="38" y="126" font-size="12" fill="#ffffff">HTML</text>
+<text x="332" y="126" font-size="12" fill="#ffffff" text-anchor="end">1.0%</text>
 </g>
 <g class="legend">
-<rect x="380" y="106" width="12" height="12" rx="2" fill="#fccde5" />
-<text x="398" y="116" font-size="12" fill="#222">Objective-C</text>
-<text x="692" y="116" font-size="12" fill="#555" text-anchor="end">0.6%</text>
+<rect x="380" y="116" width="12" height="12" rx="2" fill="#fccde5" />
+<text x="398" y="126" font-size="12" fill="#ffffff">Objective-C</text>
+<text x="692" y="126" font-size="12" fill="#ffffff" text-anchor="end">0.6%</text>
 </g>
 <g class="legend">
-<rect x="20" y="130" width="12" height="12" rx="2" fill="#f1e05a" />
-<text x="38" y="140" font-size="12" fill="#222">JavaScript</text>
-<text x="332" y="140" font-size="12" fill="#555" text-anchor="end">0.2%</text>
+<rect x="20" y="140" width="12" height="12" rx="2" fill="#f1e05a" />
+<text x="38" y="150" font-size="12" fill="#ffffff">JavaScript</text>
+<text x="332" y="150" font-size="12" fill="#ffffff" text-anchor="end">0.3%</text>
 </g>
 <g class="legend">
-<rect x="380" y="130" width="12" height="12" rx="2" fill="#701516" />
-<text x="398" y="140" font-size="12" fill="#222">Ruby</text>
-<text x="692" y="140" font-size="12" fill="#555" text-anchor="end">0.2%</text>
+<rect x="380" y="140" width="12" height="12" rx="2" fill="#701516" />
+<text x="398" y="150" font-size="12" fill="#ffffff">Ruby</text>
+<text x="692" y="150" font-size="12" fill="#ffffff" text-anchor="end">0.2%</text>
 </g>
 <g class="legend">
-<rect x="20" y="154" width="12" height="12" rx="2" fill="#80b1d3" />
-<text x="38" y="164" font-size="12" fill="#222">Other</text>
-<text x="332" y="164" font-size="12" fill="#555" text-anchor="end">0.3%</text>
+<rect x="20" y="164" width="12" height="12" rx="2" fill="#80b1d3" />
+<text x="38" y="174" font-size="12" fill="#ffffff">Other</text>
+<text x="332" y="174" font-size="12" fill="#ffffff" text-anchor="end">0.3%</text>
 </g>
-<text x="20" y="134" font-size="10" fill="#666">Updated: 2025-12-08T15:49:55.213Z</text>
+<text x="20" y="224" font-size="10" fill="#aaaaaa">Updated: 2025-12-09T07:10:56.795Z</text>
 </svg>
