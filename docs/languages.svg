@@ -9,78 +9,78 @@
 <text x="20" y="26" class="title" fill="#ffffff">Languages across all repos for jeddiot</text>
 <g transform="translate(0,0)">
 <rect x="20" y="40" width="720" height="24" rx="6" fill="#e6e6e6" />
-<rect x="20" y="40" width="233" height="24" rx="0" fill="#3572A5">
-<title>Python: 32.4%</title>
+<rect x="20" y="40" width="271" height="24" rx="0" fill="#3572A5">
+<title>Python: 37.6%</title>
 </rect>
-<rect x="253" y="40" width="197" height="24" rx="0" fill="#e34c26">
-<title>HTML: 27.4%</title>
+<rect x="291" y="40" width="182" height="24" rx="0" fill="#e34c26">
+<title>HTML: 25.3%</title>
 </rect>
-<rect x="450" y="40" width="141" height="24" rx="0" fill="#fb8072">
-<title>MATLAB: 19.6%</title>
+<rect x="473" y="40" width="130" height="24" rx="0" fill="#fb8072">
+<title>MATLAB: 18.1%</title>
 </rect>
-<rect x="591" y="40" width="40" height="24" rx="0" fill="#f34b7d">
-<title>C++: 5.6%</title>
+<rect x="603" y="40" width="37" height="24" rx="0" fill="#f34b7d">
+<title>C++: 5.2%</title>
 </rect>
-<rect x="631" y="40" width="36" height="24" rx="0" fill="#563d7c">
-<title>CSS: 5.0%</title>
+<rect x="640" y="40" width="33" height="24" rx="0" fill="#563d7c">
+<title>CSS: 4.6%</title>
 </rect>
-<rect x="667" y="40" width="27" height="24" rx="0" fill="#f1e05a">
-<title>JavaScript: 3.8%</title>
+<rect x="673" y="40" width="25" height="24" rx="0" fill="#f1e05a">
+<title>JavaScript: 3.5%</title>
 </rect>
-<rect x="694" y="40" width="21" height="24" rx="0" fill="#701516">
-<title>Ruby: 2.9%</title>
+<rect x="698" y="40" width="19" height="24" rx="0" fill="#701516">
+<title>Ruby: 2.6%</title>
 </rect>
-<rect x="715" y="40" width="11" height="24" rx="0" fill="#bc80bd">
-<title>CMake: 1.5%</title>
+<rect x="717" y="40" width="10" height="24" rx="0" fill="#bc80bd">
+<title>CMake: 1.4%</title>
 </rect>
-<rect x="726" y="40" width="13" height="24" rx="0" fill="#80b1d3">
-<title>Other: 1.8%</title>
+<rect x="727" y="40" width="12" height="24" rx="0" fill="#80b1d3">
+<title>Other: 1.6%</title>
 </rect>
 </g>
 <g class="legend">
 <rect x="20" y="68" width="12" height="12" rx="2" fill="#3572A5" />
 <text x="38" y="78" font-size="12" fill="#ffffff">Python</text>
-<text x="332" y="78" font-size="12" fill="#ffffff" text-anchor="end">32.4%</text>
+<text x="332" y="78" font-size="12" fill="#ffffff" text-anchor="end">37.6%</text>
 </g>
 <g class="legend">
 <rect x="380" y="68" width="12" height="12" rx="2" fill="#e34c26" />
 <text x="398" y="78" font-size="12" fill="#ffffff">HTML</text>
-<text x="692" y="78" font-size="12" fill="#ffffff" text-anchor="end">27.4%</text>
+<text x="692" y="78" font-size="12" fill="#ffffff" text-anchor="end">25.3%</text>
 </g>
 <g class="legend">
 <rect x="20" y="92" width="12" height="12" rx="2" fill="#fb8072" />
 <text x="38" y="102" font-size="12" fill="#ffffff">MATLAB</text>
-<text x="332" y="102" font-size="12" fill="#ffffff" text-anchor="end">19.6%</text>
+<text x="332" y="102" font-size="12" fill="#ffffff" text-anchor="end">18.1%</text>
 </g>
 <g class="legend">
 <rect x="380" y="92" width="12" height="12" rx="2" fill="#f34b7d" />
 <text x="398" y="102" font-size="12" fill="#ffffff">C++</text>
-<text x="692" y="102" font-size="12" fill="#ffffff" text-anchor="end">5.6%</text>
+<text x="692" y="102" font-size="12" fill="#ffffff" text-anchor="end">5.2%</text>
 </g>
 <g class="legend">
 <rect x="20" y="116" width="12" height="12" rx="2" fill="#563d7c" />
 <text x="38" y="126" font-size="12" fill="#ffffff">CSS</text>
-<text x="332" y="126" font-size="12" fill="#ffffff" text-anchor="end">5.0%</text>
+<text x="332" y="126" font-size="12" fill="#ffffff" text-anchor="end">4.6%</text>
 </g>
 <g class="legend">
 <rect x="380" y="116" width="12" height="12" rx="2" fill="#f1e05a" />
 <text x="398" y="126" font-size="12" fill="#ffffff">JavaScript</text>
-<text x="692" y="126" font-size="12" fill="#ffffff" text-anchor="end">3.8%</text>
+<text x="692" y="126" font-size="12" fill="#ffffff" text-anchor="end">3.5%</text>
 </g>
 <g class="legend">
 <rect x="20" y="140" width="12" height="12" rx="2" fill="#701516" />
 <text x="38" y="150" font-size="12" fill="#ffffff">Ruby</text>
-<text x="332" y="150" font-size="12" fill="#ffffff" text-anchor="end">2.9%</text>
+<text x="332" y="150" font-size="12" fill="#ffffff" text-anchor="end">2.6%</text>
 </g>
 <g class="legend">
 <rect x="380" y="140" width="12" height="12" rx="2" fill="#bc80bd" />
 <text x="398" y="150" font-size="12" fill="#ffffff">CMake</text>
-<text x="692" y="150" font-size="12" fill="#ffffff" text-anchor="end">1.5%</text>
+<text x="692" y="150" font-size="12" fill="#ffffff" text-anchor="end">1.4%</text>
 </g>
 <g class="legend">
 <rect x="20" y="164" width="12" height="12" rx="2" fill="#80b1d3" />
 <text x="38" y="174" font-size="12" fill="#ffffff">Other</text>
-<text x="332" y="174" font-size="12" fill="#ffffff" text-anchor="end">1.8%</text>
+<text x="332" y="174" font-size="12" fill="#ffffff" text-anchor="end">1.6%</text>
 </g>
-<text x="20" y="224" font-size="10" fill="#aaaaaa">Updated: 2026-02-15T01:51:37.995Z</text>
+<text x="20" y="224" font-size="10" fill="#aaaaaa">Updated: 2026-02-22T01:47:12.777Z</text>
 </svg>
