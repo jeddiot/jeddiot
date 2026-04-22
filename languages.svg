@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="760" height="206" viewBox="0 0 760 206" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .title{font:600 14px/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;}
+    .percent{font:500 12px/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;}
+    .legend{font:12px/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;}
+  </style>
+<rect x="0" y="0" width="760" height="206" fill="#2d2d2d" rx="8" />
+<text x="20" y="26" class="title" fill="#ffffff">Languages across all repos for jeddiot</text>
+<defs>
+<clipPath id="lang-bar-clip">
+<rect x="20" y="40" width="720" height="24" rx="8" ry="8" />
+</clipPath>
+</defs>
+<g transform="translate(0,0)">
+<rect x="20" y="40" width="720" height="24" rx="8" ry="8" fill="#e6e6e6" />
+<g clip-path="url(#lang-bar-clip)">
+<rect x="20" y="40" width="470" height="24" rx="0" fill="#3572A5">
+<title>Python: 65.2%</title>
+</rect>
+<rect x="490" y="40" width="100" height="24" rx="0" fill="#f34b7d">
+<title>C++: 13.9%</title>
+</rect>
+<rect x="590" y="40" width="54" height="24" rx="0" fill="#f1e05a">
+<title>JavaScript: 7.6%</title>
+</rect>
+<rect x="644" y="40" width="41" height="24" rx="0" fill="#701516">
+<title>Ruby: 5.7%</title>
+</rect>
+<rect x="685" y="40" width="22" height="24" rx="0" fill="#bc80bd">
+<title>CMake: 3.1%</title>
+</rect>
+<rect x="707" y="40" width="17" height="24" rx="0" fill="#e34c26">
+<title>HTML: 2.4%</title>
+</rect>
+<rect x="724" y="40" width="13" height="24" rx="0" fill="#89e051">
+<title>Shell: 1.7%</title>
+</rect>
+<rect x="737" y="40" width="3" height="24" rx="0" fill="#555555">
+<title>C: 0.4%</title>
+</rect>
+</g>
+</g>
+<g class="legend">
+<rect x="20" y="68" width="12" height="12" rx="2" fill="#3572A5" />
+<text x="38" y="78" font-size="12" fill="#ffffff">Python</text>
+<text x="332" y="78" font-size="12" fill="#ffffff" text-anchor="end">65.2%</text>
+</g>
+<g class="legend">
+<rect x="380" y="68" width="12" height="12" rx="2" fill="#f34b7d" />
+<text x="398" y="78" font-size="12" fill="#ffffff">C++</text>
+<text x="692" y="78" font-size="12" fill="#ffffff" text-anchor="end">13.9%</text>
+</g>
+<g class="legend">
+<rect x="20" y="92" width="12" height="12" rx="2" fill="#f1e05a" />
+<text x="38" y="102" font-size="12" fill="#ffffff">JavaScript</text>
+<text x="332" y="102" font-size="12" fill="#ffffff" text-anchor="end">7.6%</text>
+</g>
+<g class="legend">
+<rect x="380" y="92" width="12" height="12" rx="2" fill="#701516" />
+<text x="398" y="102" font-size="12" fill="#ffffff">Ruby</text>
+<text x="692" y="102" font-size="12" fill="#ffffff" text-anchor="end">5.7%</text>
+</g>
+<g class="legend">
+<rect x="20" y="116" width="12" height="12" rx="2" fill="#bc80bd" />
+<text x="38" y="126" font-size="12" fill="#ffffff">CMake</text>
+<text x="332" y="126" font-size="12" fill="#ffffff" text-anchor="end">3.1%</text>
+</g>
+<g class="legend">
+<rect x="380" y="116" width="12" height="12" rx="2" fill="#e34c26" />
+<text x="398" y="126" font-size="12" fill="#ffffff">HTML</text>
+<text x="692" y="126" font-size="12" fill="#ffffff" text-anchor="end">2.4%</text>
+</g>
+<g class="legend">
+<rect x="20" y="140" width="12" height="12" rx="2" fill="#89e051" />
+<text x="38" y="150" font-size="12" fill="#ffffff">Shell</text>
+<text x="332" y="150" font-size="12" fill="#ffffff" text-anchor="end">1.7%</text>
+</g>
+<g class="legend">
+<rect x="380" y="140" width="12" height="12" rx="2" fill="#555555" />
+<text x="398" y="150" font-size="12" fill="#ffffff">C</text>
+<text x="692" y="150" font-size="12" fill="#ffffff" text-anchor="end">0.4%</text>
+</g>
+<text x="20" y="200" font-size="10" fill="#aaaaaa">Updated: 2026-04-22T10:38:34.751Z</text>
+</svg>
