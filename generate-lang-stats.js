@@ -32,6 +32,12 @@ const user = args.user || process.env.USER;
 const outPath = args.out || 'docs/languages.svg';
 const token = process.env.GITHUB_TOKEN || args.token || '';
 
+const excludedRepos = new Set([
+  'jeddiot/calisthenics-blog',
+  'jeddiot/staggered-grid-lid-driven-cavity',
+  'jeddiot/jeddiot.github.io'
+]);
+
 if (!repo && !user) {
   console.error('Error: repo or user not specified. Use --repo=owner/repo or --user=username');
   process.exit(1);
@@ -80,6 +86,7 @@ async function fetchAllLanguages(username) {
   
   const allLangs = {};
   for (const repo of repos) {
+    if (excludedRepos.has(repo.full_name)) continue;
     try {
       const langs = await fetchLanguages(repo.full_name);
       for (const [lang, bytes] of Object.entries(langs)) {
@@ -130,14 +137,40 @@ function generateSVG(data, title) {
   const barY = 40;
   const barWidth = width - padding * 2;
   const barHeight = 24;
+  const barRadius = 8;
 
   const totalText = title;
-  // Build stacked bar segments
+  // Build stacked bar segments with exact pixel coverage (sum of widths == barWidth).
+  const withRawWidths = data.map((d, i) => {
+    const rawWidth = (d.percent / 100) * barWidth;
+    return {
+      i,
+      name: d.name,
+      percent: d.percent,
+      color: colorForLanguage(d.name),
+      rawWidth,
+      baseWidth: Math.floor(rawWidth),
+      remainder: rawWidth - Math.floor(rawWidth)
+    };
+  });
+
+  let assignedWidth = withRawWidths.reduce((sum, d) => sum + d.baseWidth, 0);
+  let remainingPixels = barWidth - assignedWidth;
+
+  if (remainingPixels > 0) {
+    const byRemainder = [...withRawWidths].sort((a, b) => b.remainder - a.remainder);
+    let idx = 0;
+    while (remainingPixels > 0 && byRemainder.length > 0) {
+      byRemainder[idx % byRemainder.length].baseWidth += 1;
+      remainingPixels--;
+      idx++;
+    }
+  }
+
   let x = barX;
-  const segments = data.map((d) => {
-    const w = Math.max(Math.round((d.percent / 100) * barWidth), d.percent > 0 ? 1 : 0);
-    const seg = { x, width: w, color: colorForLanguage(d.name), name: d.name, percent: d.percent };
-    x += w;
+  const segments = withRawWidths.map((d) => {
+    const seg = { x, width: d.baseWidth, color: d.color, name: d.name, percent: d.percent };
+    x += d.baseWidth;
     return seg;
   });
 
@@ -165,9 +198,17 @@ function generateSVG(data, title) {
   svg += `<rect x="0" y="0" width="${width}" height="${height}" fill="#2d2d2d" rx="8" />\n`;
   svg += `<text x="${padding}" y="${padding + 6}" class="title" fill="#ffffff">${escapeXml(totalText)}</text>\n`;
 
+  // Clip the stacked segments so the full bar has rounded outer corners.
+  svg += `<defs>\n`;
+  svg += `<clipPath id="lang-bar-clip">\n`;
+  svg += `<rect x="${barX}" y="${barY}" width="${barWidth}" height="${barHeight}" rx="${barRadius}" ry="${barRadius}" />\n`;
+  svg += `</clipPath>\n`;
+  svg += `</defs>\n`;
+
   // stacked bar background
   svg += `<g transform="translate(0,0)">\n`;
-  svg += `<rect x="${barX}" y="${barY}" width="${barWidth}" height="${barHeight}" rx="6" fill="#e6e6e6" />\n`;
+  svg += `<rect x="${barX}" y="${barY}" width="${barWidth}" height="${barHeight}" rx="${barRadius}" ry="${barRadius}" fill="#e6e6e6" />\n`;
+  svg += `<g clip-path="url(#lang-bar-clip)">\n`;
   // segments
   for (const seg of segments) {
     if (seg.width <= 0) continue;
@@ -175,6 +216,7 @@ function generateSVG(data, title) {
     svg += `<title>${escapeXml(`${seg.name}: ${seg.percent.toFixed(1)}%`)}</title>\n`;
     svg += `</rect>\n`;
   }
+  svg += `</g>\n`;
   svg += `</g>\n`;
 
   // Legend
@@ -221,7 +263,11 @@ function escapeXml(s) {
       title = `Languages across all repos for ${user}`;
     } else {
       // Single repo mode
-      json = await fetchLanguages(repo);
+      if (excludedRepos.has(repo)) {
+        json = {};
+      } else {
+        json = await fetchLanguages(repo);
+      }
       title = `Languages for ${repo}`;
     }
     
