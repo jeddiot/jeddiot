@@ -3,9 +3,9 @@
  * generate-lang-stats.js
  *
  * Usage:
- *   node scripts/generate-lang-stats.js --user=username --out=docs/languages.svg
+ *   node generate-lang-stats.js --user=username --out=lang-stats.svg
  *   OR
- *   node scripts/generate-lang-stats.js --repo=owner/repo --out=docs/languages.svg
+ *   node generate-lang-stats.js --repo=owner/repo --out=lang-stats.svg
  *
  * It reads GITHUB_TOKEN from env if available (for higher rate limits).
  *
