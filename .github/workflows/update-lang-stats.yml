@@ -27,16 +27,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          node scripts/generate-lang-stats.js --user=jeddiot --out=docs/languages.svg
+          node generate-lang-stats.js --user=jeddiot --out=lang-stats.svg
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/languages.svg
+          git add lang-stats.svg
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update languages.svg"
+            git commit -m "chore: update lang-stats.svg"
             git push
           fi
